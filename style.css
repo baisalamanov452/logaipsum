@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  .headerNav {
+    display: flex;
+    gap: 30px;
+    a {
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 16px;
+      color: #696871;
+    }
+  }
+  button {
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    background-color: #ff7143;
+    color: white;
+  }
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    h1 {
+      font-family: DM Sans;
+      font-weight: 700;
+      font-size: 80px;
+      line-height: 77px;
+      letter-spacing: -2.5px;
+    }
+  }
+
+  button {
+    width: 211px;
+    height: 60px;
+    background: #5454d4;
+    border-radius: 10px;
+    border: none;
+    color: white;
+  }
+}
+.logoipsum {
+  display: flex;
+  justify-content: space-between;
+}
+.index {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  margin: 100px 0;
+  p {
+    padding: 10px 5px;
+  }
+  a {
+    text-decoration: none;
+    color: #5454d4;
+  }
+}
+
+.metrics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  margin: 300px 0;
+  p {
+    padding: 15px 6px;
+  }
+  a {
+    text-decoration: none;
+    color: #5454d4;
+    font-weight: 700;
+    font-size: 17px;
+  }
+}
+.blocks{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.footer {
+  display: flex;
+}
+.future {
+display: flex; 
+  margin: 60px;
+  justify-content: space-between;
+  align-items: center;
+  .YearlyBtn {
+    background: #5454D4;
+     color: white;} 
+ button {
+  border: none;
+  border-radius: 10px;
+  width: 160px;
+  height: 55px;
+ } 
+}
+.Free {
+  width: 330px;
+  height: 441px;
+  background: #F8F8F8;
+   border-radius: 10px;
+   
+}
